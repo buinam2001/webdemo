@@ -1,0 +1,59 @@
+.flag
+{
+width: 1094px;
+margin: 0 auto;
+
+}
+.flag_header
+{
+    font-size: 20px;
+    opacity: 0.5;   
+    text-align: center;
+    text-transform: uppercase;
+}
+.flag-title
+{
+    font-weight: 600;
+    margin-top: 8px;
+    font-size: 48px;
+    text-align: center;
+}
+.flag-block
+{
+    margin-left: -110px;
+    display: flex;
+    align-items: center;
+    margin-top: 96px;
+}
+.block-use
+{
+
+}
+.block-content
+{
+
+   
+}
+.block-content,.block-use
+{
+    width:calc(50% - 110px) ;
+    margin-left: 110px;
+}
+.block-title
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.block-text
+{
+    width: 400px;
+    font-size: 20px;
+    line-height: calc(32px/20px);
+    opacity: 0.5;
+}
+.flag-r
+{
+    flex-direction: row-reverse;
+
+}

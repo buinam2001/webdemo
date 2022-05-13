@@ -1,0 +1,151 @@
+.card
+{
+    margin-top: 172px;
+    // background: rgba(8, 17, 49, 1); 
+    max-width: 100%;
+
+}
+.card-header
+{
+    text-align: center;
+}
+.header-text
+{
+    font-size: 20px;
+    opacity: 0.5;
+    margin-bottom: 9px;
+
+}
+.header-title
+{
+    color: rgba(39, 52, 100, 1);
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.crad-cover
+{
+    margin-top: 156px;
+    display: flex;
+    // justify-content: space-between;
+   
+
+  
+   
+
+}
+.body-header
+{
+    
+  padding-top: 48px;
+
+}
+.header-top
+{
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.header-number
+{
+    font-size: 56px;
+    margin-top: 12px;
+    color: white;
+}
+.header-number::after
+{
+    content: "";
+    height: 2px;
+    width: 87%;
+    display: block;
+    background-color: aliceblue;
+    margin-top: 48px;
+}
+.card-body:not(:nth-child(1))
+{
+    margin-left: 40px;
+
+}
+.card-body
+{
+  
+    border-radius: 8px;
+    padding-left: 49px;  
+    background: rgba(8, 17, 49, 1); 
+    width:400px;
+    box-sizing: border-box;
+ 
+}
+.body-list
+{
+    
+    margin-top: 48px;
+    color: white;
+    opacity: 0.5;
+    box-sizing: border-box;
+
+}
+.list-text:not(:nth-child(1))
+{
+    margin-top: 24px;
+   
+}
+.list-text
+{
+    margin-bottom: 48px;
+}
+.catch-btn
+{
+    margin-bottom: 48px;
+    // display: block;
+//  padding-top: 48px;
+
+
+}
+.catch-btn-a
+{
+    padding: 20px 24px;
+    background-color: rgba(255, 255, 255, 0.329); 
+    margin-bottom: 48px; 
+    color: white;
+    border-radius: 8px; 
+}
+.card-body:nth-child(2)
+{
+    transform: translateY(-81px);
+}
+.event
+{
+    margin: 172px auto;
+    width: 1060px;
+    background: rgba(0, 89, 247, 1);
+    box-sizing: border-box;
+    padding: 53px 56px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+}
+
+.event-text
+{
+    color: white;
+    font-size: 14px;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+.event-title
+{
+    margin-top: 15px;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+.event-btn
+{
+    display: inline-block;
+    padding: 20px 24px;
+    background: rgba(104, 158, 255, 1);
+
+
+}

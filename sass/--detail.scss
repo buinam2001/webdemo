@@ -1,0 +1,134 @@
+.detail
+{
+    margin-top: 96px;
+    max-width: 100%;
+    margin-bottom: 148px;
+   
+}
+.detail-content
+{
+    margin: 0 auto;
+    width: 840px;
+}
+.content-title
+{
+    font-weight: 600;
+    font-size: 48px;
+    
+}
+.content-note
+{
+    width: 399px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(32/20);
+}
+.summary
+{
+   max-width: 100%;
+    margin-top: 32px;
+  
+}
+.summary-desc
+{
+    width: 840px;
+    margin: 0 auto;
+
+}
+.desc-list
+{  
+    // border: 1px solid black;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: -40px;
+    justify-content: space-between;
+}
+.list-item
+{
+    // margin-top: 32px;
+    box-sizing: border-box;
+    width: calc(50% - 40px) ;
+    border: 1px solid rgba(204, 210, 233, 0.5);
+    margin-left: 40px;
+    // width: 50%;
+    padding-left: 32px;
+    border-radius: 16px;
+}
+.item-icon
+{
+    padding-top: 32px;
+}
+.item-title
+{
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.item-concontent
+{
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24px/16px);    
+    color: #070E27;
+    padding-bottom: 32px;
+    opacity: 0.5;
+}
+.list-item:not(:nth-child(1),:nth-child(2))
+{
+    margin-top: 32px;
+}
+.catch
+{
+    margin-top: 96px;
+    text-align: center;
+    background-color: rgba(0, 89, 247, 1);
+    border-radius: 24px;
+}
+.catch-heaher
+{
+    padding-top: 72px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-transform: uppercase;
+   
+
+
+}
+.catch-title
+{
+
+    padding-top: 16px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */ 
+    letter-spacing: -0.03em;
+    
+    /* White */
+    
+    color: #FFFFFF;
+}
+.catch-btn
+{
+// display: flex;
+// flex-direction: column;
+margin-top: 32px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+padding: 20px 24px;
+outline: none;
+border: none;
+border-radius: 8px;
+
+// border: 1px solid black;
+// display: inline-block;
+background: #689EFF;
+margin-bottom: 72px;
+
+}

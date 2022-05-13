@@ -1,0 +1,232 @@
+
+
+
+
+@media(max-width: 1300px) 
+{
+  
+  .flag
+  {
+          width: 100%;
+  }
+  .block-img
+  {
+      width: 100%;
+  }
+  .block-text
+  {
+      width: 100%;
+  }
+  .img-demo
+  {
+      width: 100%;
+  }
+}
+
+@media(max-width: 1024px) 
+{
+  .section-img
+  {
+    
+      display: flex;
+      justify-content: center;
+  }
+  .img-demo
+  {
+    transform: translateX(0px);
+    //   margin: 0 auto;
+    //   display: block;
+      width: 700px;
+
+     
+  }
+  
+}
+
+@media(max-width: 1100px) 
+{
+.event
+{
+    width: 80%;
+}
+  
+}
+
+@media(max-width: 954px) 
+{
+.event
+{
+    width: 60%;
+}
+  
+}
+
+
+
+@media(max-width: 821px) 
+{
+    .desc-list
+    {
+        justify-content: space-evenly;
+        margin-left: 0px;
+       
+    }
+    .summary-desc
+    {
+        width: 100%;
+    }
+    .list-item
+    {
+        margin-left: 0px;
+      width: 40%;
+    }
+    .detail-content
+    {
+        width: 100%;
+    }
+    .content-note
+    {
+        width: 100%;
+    }
+
+   
+}
+
+
+
+
+@media(max-width: 700px) 
+{
+    
+  
+    .icon-list
+    {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+      
+    }
+
+}
+@media(max-width: 742px) 
+{
+    
+  
+   .crad-cover
+   {
+       flex-direction: column;
+       align-items: center;
+       gap: 40px;
+   }
+   .card-body:nth-child(2)
+   {
+      
+    transform: translateY(0);
+
+   }
+   .card-body:not(:nth-child(1))
+   {
+      margin-left: 0;
+   
+    
+   }
+   .card-body
+   {
+       width: 80%;
+   }
+}
+@media(max-width: 622px) 
+{
+   .content{
+
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+   } 
+
+
+   .desc-list
+   {
+       flex-direction: column;
+       align-items: center;
+   }
+   .list-item:nth-child(1)
+    {
+        margin-bottom: 40px;
+    }
+    .list-item
+    {
+        width: 80%;
+    }
+    
+    .flag-block
+    {
+         flex-direction: column;
+         align-items: center;
+    }
+    .block-content
+    {
+        margin-top: 40px;
+    }
+  .block-use
+  {
+      width: 70%;
+  }
+  .block-content
+  {
+      width: 60%;
+  }
+
+    
+}
+@media(max-width: 540px) 
+{
+    .img-demo
+    {
+     
+        width: 500px;
+  
+       
+    }
+  
+
+    
+}
+
+
+
+@media(max-width: 400px) 
+{
+    .img-demo
+    {
+     
+        width: 300px;
+  
+       
+    }
+   .content-text
+   {
+       font-size: 40px;
+   }
+    .desc-text
+    {
+        font-size: 17px;
+    }
+
+}
+@media(max-width: 280px) 
+{
+  
+    .img-demo
+    {
+     
+        width: 280px;
+  
+       
+    }
+
+}
+
+
+
